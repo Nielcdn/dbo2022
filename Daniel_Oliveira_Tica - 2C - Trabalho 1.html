@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Trabalho 1</title>
@@ -11,22 +9,114 @@
             border: 2px solid black;
         }
     </style>
-
 </head>
 
 <body>
-
     <header>
     </header>
     <nav>
     </nav>
     <main>
-
-        <a href="https://ifrs.edu.br/"><img src="ifrs.png" alt="logo_ifrs" width="50" height="50"></a>
+        <h1>Trabalho 1 de DBO</h1><br>
+        <p><i>Abaixo, uma lista de <b>ALIMENTOS</b></i>:</p><br>
+        <ul type="disk">
+            <li>
+                Frutas
+                <ol type="1">
+                    <li>Banana</li>
+                    <li>Maçã</li>
+                    <li>Abacate</li>
+                </ol>
+            </li>
+            <li>
+                Vegetais
+                <ol type="I">
+                    <li>Cebola</li>
+                    <li>
+                        Pimentão
+                        <ol type="a">
+                            <li>Verde</li>
+                            <li>Vermelho</li>
+                            <li>Amarelo</li>
+                        </ol>
+                    </li>
+                    <li>Tomate</li>
+                </ol>
+            </li>
+        </ul><br>
+        <table>
+            <caption><b>Lucro por mês</b></caption>
+            <thead>
+                <tr>
+                    <th>Mês</th>
+                    <th colspan="2">Frutas</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Banana</th>
+                    <th>Maçã</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Janeiro</td>
+                    <td>100</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Fevereiro</td>
+                    <td>120</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Março</td>
+                    <td>120</td>
+                    <td>150</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>340</td>
+                    <td>300</td>
+                </tr>
+            </tfoot>
+        </table>
+        <a href="https://ifrs.edu.br/"><img src="ifrs.png" alt="logo_ifrs" width="225" height="225"></a><br>
         <figure>
-            <img src="img/hand.png" alt="hand" width="50" height="50">
+            <img src="img/hand.png" alt="sinal de paz e amor com os dedos" width="225" height="225">
             <figcaption>Paz e Amor</figcaption>
         </figure>
+        <form>
+            <fieldset>
+                <legend>Dados Necessários:</legend><br>
+
+                <label for="nome1">Nome:</label>
+                <input type="text" id="nome1"><br><br>
+
+                <label for="s1">Senha:</label>
+                <input type="password" id="s1"><br><br>
+                
+                <label for="mail2">Endereço de E-mail:</label>
+                <input type="email" id="mail2"><br>
+
+            </fieldset><br>
+            <fieldset>
+                <legend>Dados Adicionais:</legend><br>
+
+                <label for="tel2">Nº de Telefone:</label>
+                <input type="tel" id="tel2"><br><br>
+                                                
+                <label for="data2">Data de Nascimento:</label>
+                <input type="date" id="data2"><br><br>
+
+                <label for="cor2">Cor de fundo:</label>
+                <input type="color" id="cor2"><br>
+
+            </fieldset><br>
+            <input type="submit" value="Enviar">
+        </form><br><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5NKayzW2GWw" allowfullscreen></iframe>
     </main>
     <footer>
     </footer>
